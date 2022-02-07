@@ -17,6 +17,27 @@ public class Main {
         kelulusan avifta = new kelulusan();//10
         kelulusan camel = new kelulusan();//11
         kelulusan karel = new kelulusan();//12
+        kelulusan cla = new kelulusan();//13
+        kelulusan daffa = new kelulusan();//14
+        kelulusan elzaim = new kelulusan();//15
+        kelulusan fahri = new kelulusan();//16
+        kelulusan grisel = new kelulusan();//17
+        kelulusan gustaf = new kelulusan();//18
+        kelulusan jihad = new kelulusan();//19
+        kelulusan sephin = new kelulusan();//20
+        kelulusan ulil = new kelulusan();//21
+        kelulusan lintang = new kelulusan();//22
+        kelulusan aris = new kelulusan();//23
+        kelulusan dini = new kelulusan();//24
+        kelulusan irsyad = new kelulusan();//25
+        kelulusan farrel = new kelulusan();//26
+        kelulusan nabila = new kelulusan();//27
+        kelulusan nahiyah = new kelulusan();//28
+        kelulusan alif = new kelulusan();//29
+        kelulusan nia = new kelulusan();//30
+        kelulusan pandu = new kelulusan();//31
+        kelulusan reina = new kelulusan();//32
+
 
         System.out.println("Masukkan nomor absen anda: ");
         int absensi = sc.nextInt();
@@ -57,6 +78,66 @@ public class Main {
                 break;
             case 12:
                 kelulusan.carolina.karel();
+                break;
+            case 13:
+                kelulusan.cla.cla();
+                break;
+            case 14:
+                kelulusan.daffa.daffa();
+                break;
+            case 15:
+                kelulusan.elzaim.elzaim();
+                break;
+            case 16:
+                kelulusan.fahri.fahri();
+                break;
+            case 17:
+                kelulusan.grisel.grisel();
+                break;
+            case 18:
+                kelulusan.gustaf.gustaf();
+                break;
+            case 19:
+                kelulusan.jihad.jihad();
+                break;
+            case 20:
+                kelulusan.sephine.sephine();
+                break;
+            case 21:
+                kelulusan.krisna.ulil();
+                break;
+            case 22:
+                kelulusan.lintang.lintang();
+                break;
+            case 23:
+                kelulusan.aris.aris();
+                break;
+            case 24:
+                kelulusan.dini.dini();
+                break;
+            case 25:
+                kelulusan.irsyad.irsyad();
+                break;
+            case 26:
+                kelulusan.farrel.farrel();
+                break;
+            case 27:
+                kelulusan.nabila.nabila();
+                break;
+            case 28:
+                kelulusan.nahiyah.nahiyah();
+                break;
+            case 29:
+                kelulusan.alif.alif();
+                break;
+            case 30:
+                kelulusan.nia.nia();
+                break;
+            case 31:
+                kelulusan.pandu.pandu();
+                break;
+            case 32:
+                kelulusan.reina.reina();
                 break;
         }
     }
