@@ -3,3 +3,12 @@
 
 Didalam folder **/src** terdapat 2 file Java, yang pertama file **Main** dan yang kedua file **kelulusan**, file **Main** berisi source code untuk pemanggilan method dari class **kelulusan**,
 sedangkan pada file **kelulusan** terdapat method yang berisi data siswa kelas XR2 semuanya
+
+# Project Description
+Creator: Fahri Maulana
+
+Data Collector: Fahri Maulana
+
+Code Executor: Fahri Maulana
+
+**Semua Fahri Maulana, ditemani sicantik**
