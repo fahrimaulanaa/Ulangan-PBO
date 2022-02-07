@@ -8,7 +8,7 @@ public class kelulusan {
         System.out.println("NIS: "+nis);
         System.out.println("Nilai produktif "+nama+" "+nilai);
 
-        if (nilai >= 70){
+        if (nilai <= 70){
             System.out.println("Maaf "+nama+" anda tidak lulus");
         }
     }
@@ -22,10 +22,44 @@ public class kelulusan {
             System.out.println("NIS: "+nis);
             System.out.println("Nilai Produktif "+nama+" "+nilai);
 
-            if (nilai >= 70){
+            if (nilai <= 70){
                 System.out.println("Maaf "+nama+" anda tidak lulus");
             }else{
-                System.out.println("Selamat "+nama+ "anda lulus");
+                System.out.println("Selamat "+nama+ " anda lulus");
+            }
+        }
+    }
+    class nabil{
+        static String nama = "Achmad Nabil Afgareza";
+        static int nilai = 76, absen = 3, nis = 67033;
+
+        public static void Nabil(){
+            System.out.println("Nama: "+nama);
+            System.out.println("No Absen: "+absen);
+            System.out.println("NIS: "+nis);
+            System.out.println("Nilai produktif "+nama+" "+nilai);
+
+            if (nilai <= 70){
+                System.out.println("Maaf "+nama+" anda tidak lulus");
+            }else{
+                System.out.println("Selamat "+nama+ " anda lulus");
+            }
+        }
+    }
+    class reza{
+        static String nama = "Achmad Reza Subkhan";
+        static int nilai = 80, absen = 4, nis = 54403;
+
+        public static void Reza(){
+            System.out.println("Nama: "+nama);
+            System.out.println("No Absen: "+absen);
+            System.out.println("NIS: "+nis);
+            System.out.println("Nilai produktif "+nama+" "+nilai);
+
+            if (nilai <= 70){
+                System.out.println("Maaf "+nama+" anda tidak lulus");
+            }else{
+                System.out.println("Selamat "+nama+ " anda lulus");
             }
         }
     }
