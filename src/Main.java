@@ -37,6 +37,12 @@ public class Main {
         kelulusan nia = new kelulusan();//30
         kelulusan pandu = new kelulusan();//31
         kelulusan reina = new kelulusan();//32
+        kelulusan rakha = new kelulusan();//33
+        kelulusan razaan = new kelulusan();//34
+        kelulusan shandy = new kelulusan();//35
+        kelulusan vanessa = new kelulusan();//36
+        kelulusan yasmin = new kelulusan();//37
+        kelulusan eca = new kelulusan();//38
 
 
         System.out.println("Masukkan nomor absen anda: ");
@@ -139,6 +145,26 @@ public class Main {
             case 32:
                 kelulusan.reina.reina();
                 break;
+            case 33:
+                kelulusan.rakha.rakha();
+                break;
+            case 34:
+                kelulusan.razaan.razaan();
+                break;
+            case 35:
+                kelulusan.shandy.shandy();
+                break;
+            case 36:
+                kelulusan.vanessa.vanessa();
+                break;
+            case 37:
+                kelulusan.yasmin.yasmin();
+                break;
+            case 38:
+                kelulusan.eca.eca();
+                break;
+            default:
+                System.out.println("PARAMATER TIDAK VALID");
         }
     }
 }
